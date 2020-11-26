@@ -6,25 +6,14 @@
         xmlns:local="clr-namespace:ProjecteRobot"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="grdRobot">
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="*"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
         </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
-        <TextBlock x:Name="tbNumeroMoviments" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="6" Margin="10" FontSize="20"/>
-        <Button x:Name="btnIniciaJoc" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="6" Margin="10" Content="Inicia el joc" FontSize="20"/>
+        <Canvas x:Name="canvas" Grid.Row="0" MinHeight="300" MinWidth="350" VerticalAlignment="Center" HorizontalAlignment="Center" Background="DeepSkyBlue"></Canvas>
+        <Button x:Name="btnIniciaJoc" Grid.Row="1" Grid.Column="0" Grid.ColumnSpan="6" Margin="10" Content="Inicia el joc" FontSize="20" Click="btnIniciaJoc_Click"/>
+        <TextBlock x:Name="tbNumeroMoviments" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="6" Margin="10" FontSize="20" TextAlignment="Center">Aqui sortiran els moviments realitzats quan acabis la partida</TextBlock>
     </Grid>
 </Window>

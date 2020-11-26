@@ -1,0 +1,15 @@
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\bin\Debug\ProjecteRobot.exe.config
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\bin\Debug\ProjecteRobot.exe
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\bin\Debug\ProjecteRobot.pdb
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\ProjecteRobot.csprojAssemblyReference.cache
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\MainWindow.g.cs
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\App.g.cs
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\ProjecteRobot_MarkupCompile.cache
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\ProjecteRobot_MarkupCompile.lref
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\MainWindow.baml
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\ProjecteRobot.g.resources
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\ProjecteRobot.Properties.Resources.resources
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\ProjecteRobot.csproj.GenerateResource.cache
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\ProjecteRobot.csproj.CoreCompileInputs.cache
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\ProjecteRobot.exe
+C:\TercerAny\M09. ServeisProcesos\ProjecteRobot\ProjecteRobot\obj\Debug\ProjecteRobot.pdb
