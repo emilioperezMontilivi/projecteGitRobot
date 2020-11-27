@@ -10,8 +10,11 @@ namespace ProjecteRobot
     class JocRobot
     {
         public const int WIDTH = 5;
+        public const int HEIGHT = 5;
+        public int NPOMES = 5;
 
         Point cap;
+        Point tresor;
         DireccioRobot direccio;
         int movimentARealitzar;
 
@@ -22,11 +25,22 @@ namespace ProjecteRobot
 
         public DireccioRobot Direccio { get => direccio; set => direccio = value; }
         public Point Cap { get => cap; set => cap = value; }
+        public Point Tresor { get => tresor; }
+
 
         public JocRobot()
         {
             cap = new Point(0, 0);
+            Random r = new Random();
+
             //direccio = DireccioRobot.Sud;
+            var x = r.Next(0, WIDTH - 1);
+            var y = r.Next(0, HEIGHT - 1);
+
+            //Distribuir les pomes
+
+            tresor = new Point(x, y);
+
         }
 
         public void MoureRobot()
@@ -48,10 +62,6 @@ namespace ProjecteRobot
                 {
                     cap.X--;
                     esquerra = false;
-                    if (cap.X == -1)
-                    {
-                        cap.X = WIDTH - 1;
-                    }
                 }
                 else if(abaix == true)
                 {
@@ -63,12 +73,6 @@ namespace ProjecteRobot
                     cap.Y--;
                 }
             }
-            //Direccio cap avall
-            /*else if (direccio == DireccioRobot.Sud)
-            {
-                cap.Y++;
-
-            }*/
             //Direccio dreta
             else if (movimentARealitzar >= 51 && movimentARealitzar <= 75)
             {
