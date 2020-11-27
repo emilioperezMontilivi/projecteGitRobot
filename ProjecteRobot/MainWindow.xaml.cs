@@ -28,7 +28,7 @@ namespace ProjecteRobot
         public const int TRESOR_HEAD_WIDTH = 100;
         public const int TRESOR_HEAD_HEIGHT = 100;
 
-        SolidColorBrush bruhshRobot = new SolidColorBrush(Colors.White);
+        SolidColorBrush brushRobot = new SolidColorBrush(Colors.White);
         SolidColorBrush brushTresor = new SolidColorBrush(Colors.Yellow);
 
         JocRobot joc;
@@ -50,7 +50,7 @@ namespace ProjecteRobot
             canvas.Children.Clear();
             Ellipse ellipseRobot = new Ellipse()
             {
-                Fill = bruhshRobot,
+                Fill = brushRobot,
                 Width = ROBOT_HEAD_WIDTH,
                 Height = ROBOT_HEAD_HEIGHT
             };
@@ -58,6 +58,8 @@ namespace ProjecteRobot
             Canvas.SetTop(ellipseRobot, joc.Cap.Y * ROBOT_HEAD_HEIGHT);
             Canvas.SetLeft(ellipseRobot, joc.Cap.X * ROBOT_HEAD_WIDTH);
             canvas.Children.Add(ellipseRobot);
+
+            joc.MoureRobot();
         }
 
         private void btnIniciaJoc_Click(object sender, RoutedEventArgs e)
